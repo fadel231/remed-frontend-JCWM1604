@@ -1,14 +1,69 @@
 {
-    "products" : [
-        {
-            "id": 1,
-            "date": "2021-01-12T03:20:41.718Z",
-            "name": "Meja Lipat",
-            "serial": 1682697,
-            "stock": 6,
-            "category": "Furniture",
-            "price": 567890,
-            "status": "avaiable"
-          }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234",
+      "role": "admin",
+      "cart": []
+    },
+    {
+      "username": "admin",
+      "password": "1234",
+      "role": "users",
+      "id": 2
+    },
+    {
+      "username": "admin",
+      "password": "1234",
+      "role": "users",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "date": "2021-01-12T03:20:41.718Z",
+      "name": "Meja Lipat",
+      "serial": 1682697,
+      "stock": 6,
+      "categories": "Furniture",
+      "price": 567890,
+      "status": "avaiable"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Furniture"
+    },
+    {
+      "id": 2,
+      "name": "Electronic"
+    },
+    {
+      "id": 3,
+      "name": "Handphone"
+    },
+    {
+      "id": 4,
+      "name": "Beauty"
+    },
+    {
+      "id": 5,
+      "name": "Electronic"
+    },
+    {
+      "id": 6,
+      "name": "Fashion"
+    },
+    {
+      "id": 7,
+      "name": "Food"
+    },
+    {
+      "id": 8,
+      "name": "Drink"
+    }
+  ]
 }

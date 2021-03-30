@@ -3,16 +3,15 @@
 ---
 Sebelum anda mengerjakan soal ujian, pastikan anda memiliki akun **GitHub** dan ***software git*** sudah terinstall dilaptop. Anda dapat memastikan bahwa **git** sudah terinstall dilaptop anda dengan menjalankan perintah berikut ini diterminal atau ***cmd*** : ``` git --version ```. Jika muncul *versi git* maka komputer anda sudah terinstal *git*.
 
-Soal ujian dapat anda temukan didalam repositori ini atau anda dapat melihatnya melalui link dibawah ini
-
-- link : https://drive.google.com/file/d/1Fjq1C-TpLrf_kJ-TVhYs3TFgDIV-MiNx/view?usp=sharing
+Soal ujian dapat diakses melalui link dibawah ini
+- link : https://drive.google.com/file/d/1QeU-9M1qmWq_gP85lc3xk6jELcnA7y0n/view?usp=sharing
 
 Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam mengerjakan soal-soal ujian berikut ini.
 
 ## A. Term & Condition
-- ujian akan dilaksanakan selama 4 jam 20 menit
+- ujian akan dilaksanakan selama 6 jam 20 menit
     - 10 menit untuk *setup*
-    - 4 jam mengerjakan soal
+    - 6 jam mengerjakan soal
     - 10 menit *pull request*
 - selama mengerjakan ujian, siswa wajib **men-share seluruh screen** di **zoom** (khusus untuk kelas online) sampai ujian selesai
 - dilarang bekerjasama dalam mengerjakan soal ujian
@@ -22,7 +21,7 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 - jawaban soal akan dikumpulkan di dalam repositori ini dengan sistem ***pull request*** dan siswa wajib mengirim ***link*** dari ***forked repositoy*** ke alamat email berikut ini :<br>
 
     to : operational_jkt@purwadhika.com <br>
-    subject : REMEDIAL-FRONTEND-JCWM1604
+    subject : FRONTEND-JCWM1604-JKT
 
 ## B. Exam Setup Guide
 - sebelum mengerjakan soal, lakukan ***fork*** untuk repositori ini
@@ -39,19 +38,19 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 
 - pindah ke direktori *folder* hasil ```git clone``` dengan cara
 
-    ``` C:\data\alee> cd remed-frontend-JCWM1604 ``` 
+    ``` C:\data\alee> cd ujian-frontend-JCWM1604 ``` 
 
 - buatlah sebuah *branch* baru untuk tempat anda mengerjakan soal ujian
 
-    ``` C:\data\alee\remed-frontend-JCWM1604> git checkout -b alee ```
+    ``` C:\data\alee\ujian-frontend-JCWM1604> git checkout -b alee ```
 
 - *install* semua *dependencies* yang ada di dalam *project* hasil *clone* dari GitHub
     
-    ``` C:\data\alee\remed-frontend-JCWM1604> npm install```
+    ``` C:\data\alee\ujian-frontend-JCWM1604> npm install```
 
 - bukalah *code editor* anda atau *vscode* : 
 
-    ``` C:\data\alee\remed-frontend-JCWM1604> code . ```
+    ``` C:\data\alee\ujian-frontend-JCWM1604> code . ```
 
 - pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau *cmd* untuk melihat semua daftar *branch* yang ada di *folder project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
 
@@ -65,16 +64,16 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 - sebelum melakukan *pull request* ke repositori pusat (respositori asal), pastikan bahwa jawaban sudah sesuai dengan soal yang telah diberikan
 - pastikan bahwa anda telah menyimpan semua perubahan/*history* di *git*, untuk memastikannya lakukan perintah berikut ini di terminal/*cmd*
 
-    ```C:\data\alee\remed-frontend-JCWM1604> git status ```
+    ```C:\data\alee\ujian-frontend-JCWM1604> git status ```
 
 - jika *local repository* anda sudah bersih maka lanjut ke *step* berikutnya. jika masih ada file yang belum di *track* (*untrack files*) atau preubahan (*changes*) yang belum di *commit*, maka lakukan *commit* terlebih dahulu
 
-    ``` C:\data\alee\remed-frontend-JCWM1604> git add . ``` <br>
-    ``` C:\data\alee\remed-frontend-JCWM1604> git commit -m "masukan pesan commit anda" ```
+    ``` C:\data\alee\ujian-frontend-JCWM1604> git add . ``` <br>
+    ``` C:\data\alee\ujian-frontend-JCWM1604> git commit -m "masukan pesan commit anda" ```
 
 - *push branch* yang berisi hasil ujian ke GitHub (*forked repository*)
 
-    ``` C:\data\alee\remed-frontend-JCWM1604> git push origin alee ```
+    ``` C:\data\alee\ujian-frontend-JCWM1604> git push origin alee ```
 
 - buka GitHub dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang berisi hasil ujian anda sudah ada di GitHub
 - jika sudah ada, maka akan muncul warning untuk melakukan *pull request*
@@ -95,4 +94,3 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
     ![gudie_6](https://dm2302files.storage.live.com/y4m6d20-8wJHrBabe5o3boRoyLEkWPCmcvaz6z2nMFp8Qu4gVx9DBkXabQhTI8kDRAiaVshkOKYW5hX67J2SJuzwkD10vvnMPEw36Hb0c4f-sKPyNlpes8wKlB0Rqp6_-Ky1HGsw-rwuxGs-EN0x_50XsI2_ypPTpoaIZiduU-g8LAQS5OeUCdg_xVas0Fen4GY?width=939&height=138&cropmode=none)
 
 ## Selamat Mengerjakan Ujian ☺
-
